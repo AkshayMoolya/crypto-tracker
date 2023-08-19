@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 
 const Banner = () => {
   return (
-    <div className="banner" style={{ backgroundImage: "url(/banner2.jpg)" }}>
+    <div className="banner" >
       <Container
         sx={{
           height: 400,

@@ -81,15 +81,15 @@ function Carousel() {
       }}
     >
       <AliceCarousel
-        mouseTracking
         infinite
-        autoPlayInterval={1000}
-        animationDuration={1500}
-        disableDotsControls
+        autoPlayInterval={500}
+        animationDuration={1000}
         responsive={responsive}
         autoPlay
         items={items}
         disableButtonsControls
+        keyboardNavigation
+        animationType="slide"
       />
     </div>
   );
